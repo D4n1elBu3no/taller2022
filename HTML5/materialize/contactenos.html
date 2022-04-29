@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Titulo que se ve en la pestania-->
+    <Title>Contactenos</Title>
+
+    </head>
+
+    <body>
+      <!--  Aca esta la barra de navegacion-->
+        <nav class="nav-extended orange darken-1">
+          <!--Botones superiores-->
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Logo</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contactenos.html">Contactenos</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contactenos.html">Contactenos</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        
+          <h1>Contactenos</h1>
+          <!--Aca creo el que me ajusta los margenes del cuerpo-->
+          <div class="container">
+              <!--Aca creo el row que me permite usar el grid-->
+              <div class="row" >
+                  <!--Inicio la etiqueta que me permite enviar informacion-->
+                  <form class="col s12 m6 offset-m3">
+                      <div class="row">
+                        <div class="input-field col s12 m9 l12">
+                            <input id="nombre" type="text" class="validate">
+                            <label for="nombre">Nombre</label>
+                        </div>
+                        <div class="input-field col s12 m9 l12">
+                            <input id="apellido" type="text" class="validate">
+                            <label for="apellido">Apellido</label>
+                        </div>
+                        <div class="input-field col s12 m9 l12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col s12 m9 l12">
+                            <input id="telefono" type="number" class="validate">
+                            <label for="telefono">Telefono</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="fecha"  type="text" class="datepicker">
+                            <label for="fecha">Fecha de Nacimiento</label>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                            <i class="material-icons right">send</i>
+                        </button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+            });
+      </script>
+    </body>
+  </html>
