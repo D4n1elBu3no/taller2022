@@ -15,3 +15,14 @@ CREATE TABLE personas(
 		
 	
 	);
+
+
+
+CREATE TABLE alumnos(
+
+	documento VARCHAR(20),
+	nombre VARCHAR(50),
+	apellidos VARCHAR(50),
+	tipoDocumento ENUM("CI""pasaporte"),
+	fechaNacimiento DATE,
+);
