@@ -24,13 +24,22 @@
     //No muestra nada
     echo($varBolean);
 
+    echo("<br>");
+    echo("<hr>");
+
     //definimos una variable de tipo array
     //Ejemplo de array asosiativo donde usamos conceptos de clave-valor
     $arrayVar = array("primero"=>"uno", "Segundo"=>"dos", "tercero"=>"tres");
     var_dump($arrayVar);
     print_r($arrayVar);
 
+    echo("<br>");
+    echo("<hr>");
     //Ejemplo de array numerado
+    $varArrayNum = array("uno", "dos", "tres");
+    var_dump($varArrayNum);
+    print_r($varArrayNum);
+
 
 ?>
 <html>
