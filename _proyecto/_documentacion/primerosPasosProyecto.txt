@@ -1,0 +1,41 @@
+A) El sistema va a estar definido en dos partes
+A.1) Back-end (Sistema de gestión del sitio)
+A.2) Front-end (Página web abierta al publico)
+
+-----------------------------------------------------------------------------------
+B)Documentacion del proyecto (_documentacion)
+
+1)Diagramas(mer, normalización, diagramas de flujos, diagramas secuencias)
+2)Readme.txt (Descripción del proyecto)
+    2.1)Título.
+    2.2)Autores.
+    2.3)En que está hecho.
+        2.3.1)Tecnología que se usa y tecnología probada.
+    2.4)Alcance.
+    2.5)Fecha de inicio.
+    2.6)Última actualización.
+
+3)Manuales de usuarios(Backend y Frontend)
+
+-----------------------------------------------------------------------------------
+Back-end
+
+1) Crear el index.php y probar si funciona
+2) Crear una carpeta "modelos" (En esta carpeta voy a guardar todos los modelos que voy a usar[clases])
+3) Creo una carpeta configuración (Todo lo que preciso para la configuración: credenciales, base datos, links ws, versiones del sistema, etc)
+4) Creo una carpeta de vistas (Esta carpeta guardo todo lo relacionado a la parte visual)
+5) router.php (Es un manejador de rutas)
+6) web (Va a tener todos los JavaScript, html y css)
+
+
+-----------------------------------------------------------------------------------
+
+Preparo proyecto
+
+1) Bajo archivos materialize "hhttps://materializecss.com/getting-started.html"
+2) Copio los archivos descargados dentro de la carpeta web
+3) En el archivo index.php copio el codigo HTML Setup
+    3.1) Cambio las retas del archivo css
+    3.2) Cambio la ruta de mi archivo js 
+    3.3) Ponemos el inizalizar de JS 
+    3.4) 
